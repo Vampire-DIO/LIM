@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package org.delisy.entity.proto;
+
+option java_package = "org.delisy.entity";
+option java_outer_classname = "MessageProto";
+
+message MessageDTO {
+  string fromUserId = 1;
+  string toUserId = 2;
+  string msg = 3;
+  int32 type = 4;
+}

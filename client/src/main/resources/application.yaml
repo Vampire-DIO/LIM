@@ -1,0 +1,13 @@
+server:
+  port: 8020
+
+app:
+  zk:
+    address: localhost:2181
+    root: /route
+  route:
+    url: http://localhost:8040
+spring:
+  redis:
+    host: localhost
+    port: 6379
